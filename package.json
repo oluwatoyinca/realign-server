@@ -1,0 +1,32 @@
+{
+  "name": "realign-server",
+  "version": "1.0.0",
+  "description": "Realign project for Fullstack Engineer interview - Server-side",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "dev": "nodemon -r dotenv/config index.js",
+    "migrate": "node-pg-migrate",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/oluwatoyinca/realign-server.git"
+  },
+  "author": "oluwatoyinca",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/oluwatoyinca/realign-server/issues"
+  },
+  "homepage": "https://github.com/oluwatoyinca/realign-server#readme"
+}
